@@ -1,0 +1,359 @@
+h1 {
+    color: rgb(43, 0, 255);
+    font-size: 80px;
+    margin-left: 20vw;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    h1 {
+        font-size: 75px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    h1 {
+        font-size: 57px;
+    }
+}
+
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+
+
+.hero {
+    text-align: center;
+
+
+}
+
+
+
+
+img {
+    position: absolute;
+    left: 5%;
+    height: 40vw;
+    width: 25vw;
+    margin-top: -4vw;
+}
+
+article {
+    margin-top: 15vw;
+}
+
+
+
+
+h1 {
+
+    padding-left: 12%;
+    padding-right: 0%;
+}
+
+body {
+    background-color: rgb(0, 10, 14);
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.pools {
+
+    position: RIGHT;
+    padding: 20px;
+    left: 1%;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .pools {
+
+        font-size: 30px;
+        padding: 5PX;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .pools {
+
+        font-size: 22px;
+    }
+}
+
+.header {
+
+    text-align: center;
+    margin-bottom: 20%;
+
+}
+
+p {
+    color: rgb(2, 203, 253);
+    font-size: 15px;
+    padding-left: 19%;
+    padding-right: 0%;
+}
+
+a {
+    color: rgb(3, 3, 253);
+    padding-left: 15%;
+    padding-right: 0%;
+    margin-left: -15%;
+    margin-right: 0%;
+
+}
+
+h2 {
+    color: rgb(4, 251, 173);
+    font-size: 60px;
+    margin: 20px;
+    padding-right: 0%;
+    padding-left: 2%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    h2 {
+        font-size: 40px;
+    }
+}
+
+
+
+h3 {
+    color: rgb(8, 93, 70);
+    font-size: 28px;
+    padding-left: 5%;
+    padding-right: 0%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    h3 {
+        font-size: 15px;
+    }
+}
+
+
+.moo {
+
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .moo {
+
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .moo {
+        background-color: rgba(219, 225, 228, 0.641);
+        font-size: 10px;
+    }
+}
+
+.wrapper {
+    display: inline-block;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper>* {
+    padding: 10px;
+    flex: 1 100%
+}
+
+
+.education {
+    text-align: left;
+    background-color: rgba(219, 225, 228, 0.641);
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .education {
+
+        font-size: 14px;
+        background-color: rgba(219, 225, 228, 0.641);
+
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .education {
+        background-color: rgba(219, 225, 228, 0.641);
+        font-size: 10px;
+    }
+}
+
+
+.experience {
+    background: rgba(242, 246, 248, 0.555);
+    font-size: 30px;
+    text-align: left;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .experience {
+
+        font-size: 14px;
+        background-color: rgba(248, 249, 250, 0.805);
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .experience {
+        background-color: rgba(219, 225, 228, 0.641);
+        font-size: 10px;
+    }
+}
+
+.skills {
+
+    text-align: left;
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .skills {
+        background-color: rgba(161, 169, 173, 0.555);
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .skills {
+
+        font-size: 10px;
+    }
+}
+
+
+
+/*nav*/
+nav {
+    background-color: transparent;
+    position: sticky;
+}
+
+li:hover {
+    background-color: rgb(234, 226, 226);
+    cursor: pointer;
+}
+
+li {
+    font-size: 19px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: solid black;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+label {
+    width: 6vw;
+    display: inline-block;
+    margin: 3px;
+}
+
+h4 {
+    font-size: 20px;
+    color: aquamarine;
+    text-align: left;
+}
+
+h5 {
+    font-size: 20px;
+    color: rgb(6, 61, 61);
+
+}
+
+h6 {
+    font-size: 29px;
+    color: bisque;
+    margin-left: 30vw;
+}
+
+
+
+.container {
+    display: grid;
+
+
+}
+
+.education {
+    padding: 20px;
+}
+
+.experience {
+    padding: 20px;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.animation:hover {
+    transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 789px) and (max-width: 7000px) {
+    .education {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 7000px) {
+    .experience {
+        width: 30%;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 7000px) {
+    .skills {
+        width: 23%;
+        float: right;
+
+    }
+}

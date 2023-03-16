@@ -1,0 +1,167 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <title>My Digital Resume</title>
+    </head>
+
+
+
+    <body>
+
+        <div class="wrapper">
+
+            <nav>
+                <ul>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="contact details">contact details</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <header id="heading">
+                    <picture>
+
+                        <source media="(max-width: 800px)" srcset=IMAGES/MYSELF.SMALL.PNG>
+                        <source media="(max-width: 1400px)" srcset=IMAGES/MYSELF.MEDIUM.jpg>
+                        <img src="IMAGES/MYSELF.LARGE.jpg" alt="MYSELF.LARGE">
+
+
+                    </picture>
+
+                    <video autoplay muted loop id="video">
+                        <source src="./IMAGES/ORATILE.mp4" type="video/mp4">
+                    </video>
+
+                    <h1>Oratile Theressa Mafatshe</h1>
+                    <h6>I am a hard working person nothing can take down my confident. I am a dedicated and a straight
+                        forward person who fight for what is right for her and wants everything that is hers.</h6>
+                </header>
+            </div>
+
+
+
+            <div class="container">
+
+
+                <article>
+                    <div class="education">
+                        <h2 id="education">Education</h2>
+                        <h3>Life and environmental Sciences at <a href="https://www.unisa.ac.za/sites/myunisa/default/">
+                                Unisa</a></h3>
+                        <h3>Intro to Web at <a href="http://codespace.co.za/">CodeSpace Academy</a></h3>
+
+                        <h3>Completed matric at <a href="https://bafokengsecondaryschool.co.za/">Bafokeng Secondary
+                                School</a></h3>
+
+                        <h4>subjects</h4>
+                        <ul>
+                            <li>Maths</li>
+                            <li>Life Sciences</li>
+                            <li>Physical Sciences</li>
+                            <li>Agricultural Sciences</li>
+                        </ul>
+
+
+
+                    </div>
+
+
+                    <div class="aside">
+
+                        <div class="experience">
+                            <h2 id="experience">Experience</h2>
+
+                            <h3>Job 1</h3>
+                            <h5>Assistant Educator at <a href="https://saronprimaryschool.co.za/">Saron Primary
+                                    School</a></h5>
+                            <ul>
+                                <li>Getting the classroom ready for lessons.</li>
+                                <li>Helping children who need extra support to complete tasks.</li>
+                                <li>Helping teachers to plan learning activities and complete records.</li>
+                                <li>Supporting teachers in managing class behaviour.</li>
+                                <li>Supervising group activities.</li>
+                                <li>Helping with outings and sports events.</li>
+                                <li>Taking part in training.</li>
+                                <li>Carrying out administrative tasks. </li>
+                            </ul>
+
+                        </div>
+
+
+
+                        <div class="skills">
+                            <h2 id="skills">Skills</h2>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JAVA SCRIPT</li>
+                                <li>Problem solving</li>
+                                <li>Communication</li>
+                                <li>Listening</li>
+                                <li>computer literacy</li>
+                                <li>Emotional intelligence</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+
+
+            <div class="moo">
+                <footer>
+                    <h2 id="contact details">Contact Details</h2>
+                    <div class="animation">
+                        <a
+                            href="https://www.linkedin.com/feed/?doFeedRefresh=true&nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BiTic3nCORP%2Brsw0wf5m54Q%3D%3D"><i
+                                class="fa-brands fa-linkedin fa-2x"></i></a>
+                        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        <a href="https://twitter.com/login?lang=en"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                        <a href="https://github.com/"><i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                    <form action="https://formsubmit.co/oratiletheressa02@gmail.com" method="POST">
+
+                        <h3>Our Basic Form</h3>
+                        <h5> <label for="contact-reason-select">Reason of Contact:
+                            </label>
+                            <select name="contact-reason" id="contact-reason-select">
+                                <option value="">--please choose an option--</option>
+                                <option value="job_related">Job_Related</option>
+                                <option value="important">Important</option>
+                                <option value="social">Social</option>
+                            </select>
+                        </h5>
+
+                        <h5><label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" required>
+                        </h5>
+                        <h5><label for="mail">Email</label>
+                            <input type="mail" id="mail" name="user_mail" required>
+                        </h5>
+                        <h5><label for="msg">Message</label>
+                            <textarea name="user_message" id="msg"></textarea>
+                        </h5>
+                        <input type="submit">
+
+                    </form>
+                </footer>
+            </div>
+
+
+        </div>
+    </body>
+
+
+    </html>
